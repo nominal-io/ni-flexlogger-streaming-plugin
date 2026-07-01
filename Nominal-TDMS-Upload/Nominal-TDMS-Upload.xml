@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessingElement>
+  <Type>3760599E-0F65-4C4F-BDDD-CA464687F48B</Type>
+  <Name>Nominal-TDMS-Upload</Name>
+  <TemplateType>Plugin</TemplateType>
+  <DevelopmentKitVersion>26.3</DevelopmentKitVersion>
+  <Version>0.1</Version>
+  <OldestCompatibleVersion>0.1</OldestCompatibleVersion>
+  <AliasBase>Nominal-TDMS-Upload</AliasBase>
+  <Icon>mixed</Icon>
+  <Description>For non-live streaming, uploads every TDMS file generated to nominal core.
+
+Requires API key and dataset RID.</Description>
+  <VIExec>niPluginWrapper</VIExec>  
+</ProcessingElement>

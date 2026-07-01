@@ -1,0 +1,32 @@
+<Configuration>
+  <Target name="My Computer">
+    <EnableDebuggingForAllVIs>0</EnableDebuggingForAllVIs>
+    <VI name="Nominal-Streamer.lvlib:Nominal-Streamer.lvclass:Cleanup Session.vi:1830001">
+      <Breakpoints>
+        <NodeIndexes>
+        </NodeIndexes>
+        <SignalIndexes>
+        </SignalIndexes>
+      </Breakpoints>
+      <Probes>
+        <Generic>
+          <SignalUID value="413"/>
+          <SignalUID value="317"/>
+        </Generic>
+      </Probes>
+    </VI>
+    <VI name="PluginEnvironmentSimulator.lvlib:Reconfigure Plugin.vi">
+      <Breakpoints>
+        <NodeIndexes>
+        </NodeIndexes>
+        <SignalIndexes>
+        </SignalIndexes>
+      </Breakpoints>
+      <Probes>
+        <Generic>
+          <SignalUID value="569"/>
+        </Generic>
+      </Probes>
+    </VI>
+  </Target>
+</Configuration>

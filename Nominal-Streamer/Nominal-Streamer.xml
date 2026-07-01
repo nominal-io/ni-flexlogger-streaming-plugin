@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessingElement>
+  <Type>38DEE92D-10D0-4AC5-A7AF-F599794A7BC4</Type>
+  <Name>Nominal-Streamer</Name>
+  <TemplateType>Plugin</TemplateType>
+  <DevelopmentKitVersion>26.3</DevelopmentKitVersion>
+  <Version>0.1</Version>
+  <OldestCompatibleVersion>0.1</OldestCompatibleVersion>
+  <AliasBase>Nominal-Streamer</AliasBase>
+  <Icon>mixed</Icon>
+  <Description>Takes any mapped channels and publishes them to Nominal Core. Only works on channels read by FlexLogger(R).
+  
+  Requires API key and dataset RID.</Description>
+  <VIExec>niPluginWrapper</VIExec>  
+</ProcessingElement>
