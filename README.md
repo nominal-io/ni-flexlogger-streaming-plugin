@@ -1,6 +1,9 @@
 # ni-flexlogger-streaming-plugin
 Contains plugins for NI FlexLogger® which are capable of streaming to Nominal Core.
 
+## Install
+Extract a release to `C:\Users\Public\Documents\National Instruments\FlexLogger\Plugins\IOPlugins`
+
 ## Dependencies
 All codebases below depend on these VIPM packages:
  - [Nominal.io Client](https://www.vipm.io/package/nominal_lib_nominal_io_client/)
