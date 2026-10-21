@@ -1,10 +1,10 @@
 # ni-flexlogger-streaming-plugin
-Plugins for NI FlexLogger® which stream test data to Nominal Core. Full docs (here)[https://docs.nominal.io/warehouse/documentation/connectors-and-sdks/flexlogger].
+Plugins for NI FlexLogger® which stream test data to Nominal. Full docs [here](https://nominal-io.github.io/pub-docs/ni/flexlogger/).
 
 Two plugins are provided:
 
-- **Nominal-Streamer** streams a user-selected list of channels to Nominal Core live, while the test runs.
-- **Nominal-TDMS-Upload** runs continuously without streaming live. It waits for a message from NI FlexLogger® indicating that a TDMS file is complete, then opens that file and streams its contents to Nominal Core.
+- **Nominal-Streamer** streams a user-selected list of channels to Nominal live, while the test runs.
+- **Nominal-TDMS-Upload** runs continuously without streaming live. It waits for a message from NI FlexLogger® indicating that a TDMS file is complete, then opens that file and streams its contents to Nominal.
 
 Both plugins subscribe to input channels only. As with the logging built into NI FlexLogger®, output channels cannot be recorded. Nominal-Streamer can be configured to record every analog input channel with a single button press.
 

@@ -15,3 +15,8 @@
 *.aliases
 *.lvlps
 .cache/
+
+# The docs build and its Python environment
+docs/_build/
+.venv/
+__pycache__/
