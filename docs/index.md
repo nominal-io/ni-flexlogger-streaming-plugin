@@ -7,6 +7,7 @@
 Send test data from your NI FlexLogger® data acquisition project to a Nominal dataset. Stream the channels you select as FlexLogger® acquires them, or upload FlexLogger®'s TDMS files as it closes them.
 
 Releases and source code are on [GitHub](https://github.com/nominal-io/ni-flexlogger-streaming-plugin).
+Nominal also integrates with [LabVIEW](site:/ni/labview/), [TestStand](site:/ni/teststand/) and [VeriStand](site:/ni/veristand/).
 
 :::{note}
 **New to FlexLogger®?** NI FlexLogger® is a configuration-based data acquisition tool for NI-DAQmx devices and other hardware. See [ni.com/flexlogger](https://www.ni.com/en/shop/data-acquisition-and-control/flexlogger).
