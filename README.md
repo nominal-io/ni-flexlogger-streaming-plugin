@@ -1,5 +1,5 @@
 # ni-flexlogger-streaming-plugin
-Plugins for NI FlexLogger® which stream test data to Nominal. Full docs [here](https://nominal-io.github.io/pub-docs/ni/flexlogger/).
+Plugins for NI FlexLogger® which stream test data to Nominal. Full docs [here](https://dev.nominal.io/ni-flexlogger/).
 
 Two plugins are provided:
 
