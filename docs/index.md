@@ -7,7 +7,7 @@
 Send test data from your NI FlexLogger® data acquisition project to a Nominal dataset. Stream the channels you select as FlexLogger® acquires them, or upload FlexLogger®'s TDMS files as it closes them.
 
 Releases and source code are on [GitHub](https://github.com/nominal-io/ni-flexlogger-streaming-plugin).
-Nominal also integrates with [LabVIEW](site:/ni/labview/), [TestStand](site:/ni/teststand/) and [VeriStand](site:/ni/veristand/).
+Nominal also integrates with [LabVIEW](site:/ni-labview/), [TestStand](site:/ni-teststand/) and [VeriStand](site:/ni-veristand/).
 
 :::{note}
 **New to FlexLogger®?** NI FlexLogger® is a configuration-based data acquisition tool for NI-DAQmx devices and other hardware. See [ni.com/flexlogger](https://www.ni.com/en/shop/data-acquisition-and-control/flexlogger).
@@ -26,11 +26,11 @@ To build them from source, you also need:
 
 - LabVIEW 2020 SP1 or later, 64-bit
 - The [FlexLogger® Plug-In Development Kit](https://www.ni.com/en/support/downloads/software-products/download.flexlogger-plug-in-development-kit.html) version for your LabVIEW, from NI's [compatibility table](https://www.ni.com/en/support/documentation/compatibility/25/flexlogger-plug-in-development-kit-compatibility-with-flexlogger-and-labview.html)
-- The [Nominal client for LabVIEW](site:/ni/labview/), installed from VIPM
+- The [Nominal client for LabVIEW](site:/ni-labview/), installed from VIPM
 
 ## Connect to Nominal
 
-The plugins authenticate with a Nominal API key; see [API keys setup](site:/quickstart/quickstart/api-keys-setup/). They write to a dataset, so you also need [the dataset's RID](site:/quickstart/quickstart/quick/quick-dataset-rid/). To keep that data with the system it came from, [attach the dataset to an asset](site:/quickstart/quickstart/quick/quick-attach-dataset/). Keep the API key secret. The dataset RID is an identifier, not a credential.
+The plugins authenticate with a Nominal API key; see [API keys setup](site:/quickstart/api-keys-setup/). They write to a dataset, so you also need [the dataset's RID](site:/quickstart/quick/quick-dataset-rid/). To keep that data with the system it came from, [attach the dataset to an asset](site:/quickstart/quick/quick-attach-dataset/). Keep the API key secret. The dataset RID is an identifier, not a credential.
 
 ## Install the plugins
 

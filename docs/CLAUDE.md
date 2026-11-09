@@ -25,7 +25,7 @@ The VIs are binary, so their strings don't show up in a text search. Open a VI i
 them.
 
 The plugins connect through the Nominal client for LabVIEW, which each packed library bundles.
-Link to [its docs](site:/ni/labview/) for the client's own behavior. For anything in the Nominal
+Link to [its docs](site:/ni-labview/) for the client's own behavior. For anything in the Nominal
 app, such as the **API keys** page or a dataset's RID, link the hub's quickstart pages rather
 than describing the app from memory.
 
@@ -37,7 +37,7 @@ than describing the app from memory.
   from source, and keep what each path needs apart.
 - State only what the source shows or what has been run in FlexLogger.
 - Keep the Trademarks section at the end of each page that names NI's products.
-- Link to other projects on the hub as `[text](site:/{lang}/{project}/{page}/)`, never with an
+- Link to other projects on the hub as `[text](site:/{project}/{page}/)`, never with an
   absolute URL, so the hub's offline copy works.
 
 ## Building
